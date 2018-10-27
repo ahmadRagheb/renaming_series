@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include renaming_series *.css
+recursive-include renaming_series *.csv
+recursive-include renaming_series *.html
+recursive-include renaming_series *.ico
+recursive-include renaming_series *.js
+recursive-include renaming_series *.json
+recursive-include renaming_series *.md
+recursive-include renaming_series *.png
+recursive-include renaming_series *.py
+recursive-include renaming_series *.svg
+recursive-include renaming_series *.txt
+recursive-exclude renaming_series *.pyc
